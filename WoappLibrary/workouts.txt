@@ -1,0 +1,10 @@
+﻿date: 5.5.2023
+description: Klasika
+
+exercise: Shyby
+rest: 2:00
+repetitions: 10 10 10 8 8 5 5
+
+exercise: Dipy
+rest: 2:00
+reps: 15 15 10 10
