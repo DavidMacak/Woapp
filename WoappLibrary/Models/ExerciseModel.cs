@@ -8,8 +8,43 @@ namespace WoappLibrary.Models
 {
     public class ExerciseModel
     {
-        public string ExerciseType { get; set; } = string.Empty;
-        public TimeOnly Rest { get; set; }
-        public List<int> Repetitions { get; set; } = new List<int>();
+        public event EventHandler ModelChanged;
+
+        private string exerciseType;
+        private TimeOnly rest;
+        private List<int> repetitions;
+
+        public string ExerciseType
+        {
+            get => exerciseType; 
+            set
+            {
+                exerciseType = value;
+                OnModelChanged();
+            }
+        }
+        public TimeOnly Rest
+        {
+            get => rest; 
+            set
+            {
+                rest = value;
+                OnModelChanged();
+            }
+        }
+        public List<int> Repetitions
+        {
+            get => repetitions; 
+            set
+            {
+                repetitions = value;
+                OnModelChanged();
+            }
+        }
+
+        protected virtual void OnModelChanged()
+        {
+            ModelChanged?.Invoke(this, EventArgs.Empty);
+        }
     }
 }

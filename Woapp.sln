@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WoappMAUI", "WoappMAUI\WoappMAUI.csproj", "{E9730E30-95E0-4ED8-827A-161D9F055E92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoappLibrary", "WoappLibrary\WoappLibrary.csproj", "{448A8CEB-2C24-43FA-A53A-37C68FB5C25B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WoappLibrary", "WoappLibrary\WoappLibrary.csproj", "{448A8CEB-2C24-43FA-A53A-37C68FB5C25B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoappConsole", "WoappConsole\WoappConsole.csproj", "{16B0D2D9-949F-463B-8859-491EB81E9D80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{448A8CEB-2C24-43FA-A53A-37C68FB5C25B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{448A8CEB-2C24-43FA-A53A-37C68FB5C25B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{448A8CEB-2C24-43FA-A53A-37C68FB5C25B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16B0D2D9-949F-463B-8859-491EB81E9D80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B0D2D9-949F-463B-8859-491EB81E9D80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B0D2D9-949F-463B-8859-491EB81E9D80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B0D2D9-949F-463B-8859-491EB81E9D80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
