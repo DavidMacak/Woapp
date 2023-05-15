@@ -7,6 +7,8 @@ using WoappLibrary.Models;
 
 namespace WoappLibrary
 {
+    //TODO bude sloužit pro custom návrh abychom nemuseli pokaždé vypisovat 10 sérií jednoho cviku který třeba pořád opakujeme.
+
     public static class Exercise
     {
         public static ExerciseModel Create()

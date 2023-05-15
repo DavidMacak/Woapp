@@ -55,16 +55,6 @@ namespace WoappLibrary
             string filename = $"{workout.WorkoutDate.Year}-{workout.WorkoutDate.Month}-{workout.WorkoutDate.Day}.json";
             string fullpath = GetFullPath(filename);
             File.WriteAllText(fullpath, json);
-
-            //TODO dialogove okno na přepsání
-            //if (!File.Exists(fullpath))
-            //{
-            //    File.WriteAllText(fullpath, json);
-            //}
-            //else
-            //{
-            //    throw new Exception("File already exists!");
-            //}
         }
 
         public static void DeleteWorkoutModel(WorkoutModel workout)
